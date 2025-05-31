@@ -1,0 +1,35 @@
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/breakpoint' as *;
+@use '@carbon/react/scss/theme' as *;
+
+.projects-page__r1 {
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-05;
+}
+.projects-page__description {
+  padding-left: 0;
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-05;
+}
+.projects-page__skills {
+  padding-left: 0;
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-05;
+}
+.projects-page__products {
+  padding-left: 0;
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-05;
+}
+
+.projects-page__thumbnail {
+  max-width: 100%;
+}
+
+.projects-page__subheading {
+  padding-top: $spacing-05;
+  padding-bottom: $spacing-05;
+  @include type-style('productive-heading-03');
+  font-weight: 600;
+}
