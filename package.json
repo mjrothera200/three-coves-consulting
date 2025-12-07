@@ -14,7 +14,8 @@
     "clean": "yarn cache clean && yarn install",
     "format": "prettier --write \"**/*.{js,md,scss}\"",
     "format:diff": "prettier --list-different \"**/*.{js,md,scss}\"",
-    "deploy": "rm -rf ./out && yarn build && aws s3 sync ./out s3://three-coves.com/"
+    "deploy": "rm -rf ./out && yarn build && aws s3 sync ./out s3://three-coves.com/",
+    "deploy2": "rm -rf ./out && yarn build && aws s3 sync ./out s3://mjrothera.io/"
   },
   "dependencies": {
     "@carbon/pictograms-react": "^11.50.0",

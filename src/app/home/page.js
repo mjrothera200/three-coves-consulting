@@ -180,7 +180,7 @@ export default function LandingPage() {
                       evaluate your operating model and recommend improvements based on my experience.
                     </div>
                     <div className="landing-page__keypoint">
-                      <h4>SaaS Best Practices Overview</h4> Review best practices for a SaaS services organization
+                      <h4>SaaS Services Best Practices Overview</h4> Review best practices for a SaaS services organization
                       across the customer life-cycle to address problems with scale, delivery excellence, and organizational
                       alignment.  
                     </div>
